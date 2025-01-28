@@ -25,7 +25,7 @@ public class NameBasics {
     private Integer birthYear;
 
     @Column(name = "death_year")
-    private Integer deathYear;
+    private String deathYear;
 
     @ElementCollection
     @CollectionTable(name = "name_professions", joinColumns = @JoinColumn(name = "nconst"))
